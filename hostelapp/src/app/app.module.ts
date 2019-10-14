@@ -9,6 +9,9 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { TabsComponent } from './tabs/tabs.component';
+import { AuthComponent } from './auth/auth.component';
+import { FloatLabelComponent } from './float-label/float-label.component';
+import { NativeScriptPickerModule } from "nativescript-picker/angular";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -24,11 +27,14 @@ import { TabsComponent } from './tabs/tabs.component';
         NativeScriptModule,
         AppRoutingModule,
         NativeScriptCommonModule,
-        NativeScriptFormsModule
+        NativeScriptFormsModule,
+        NativeScriptPickerModule
     ],
     declarations: [
         AppComponent,
-        TabsComponent
+        TabsComponent,
+        AuthComponent,
+        FloatLabelComponent
     ],
     providers: [],
     schemas: [

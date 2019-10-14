@@ -65,7 +65,7 @@
 
         <!-- tab contents -->
         <GridLayout #tabContents *ngFor="let item of tabList; let i = index"
-            [col]="i" marginTop="20" (tap)="onBottomNavTap(i)"
+            [col]="i" marginTop="20"
             verticalAlignment="middle">
             <Label class="fa-regular" [text]="item.text" verticalAlignment="middle"
                 horizontalAlignment="center" [color]="item.color" fontSize="20"></Label>
