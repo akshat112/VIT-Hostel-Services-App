@@ -66,7 +66,7 @@
                         <GridLayout row="3" rows="auto, auto" class="submit-container">
                             <Button row="0"
                                 class="login-submit"
-                                text="Sign in" (tap)="login()"></Button>
+                                text="Sign in" (tap)="login()" [nsRouterLink]="['/tabs']" clearHistory="true"></Button>
                             <Label *ngIf="hasLoginErrors()" class="color-danger"
                                 row="1" [text]="getLoginError()" textWrap="true"
                                ></Label>

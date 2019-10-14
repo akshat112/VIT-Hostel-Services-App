@@ -34,11 +34,11 @@ export class TabsComponent implements AfterViewInit {
         focusColor: '#fff'
     };
     tabList: { text: string, icon?: string, color?: string, backgroundColor: string, fadeColor?: string }[] = [
-        { text: String.fromCharCode(0xf080), backgroundColor: '#5B37B7', color: '#000' },
+        { text: String.fromCharCode(0xf007), backgroundColor: '#5B37B7', color: '#000' },
         { text: String.fromCharCode(0xf075), backgroundColor: '#E6A938', color: '#000' },
-        { text: String.fromCharCode(0xf259), backgroundColor: '#C9449D', color: '#000' },
+        { text: String.fromCharCode(0xf756), backgroundColor: '#C9449D', color: '#000' },
         { text: String.fromCharCode(0xf1d8), backgroundColor: '#4195AA', color: '#000' },
-        { text: String.fromCharCode(0xf073), backgroundColor: '#4A9F6E', color: '#000' }
+        { text: String.fromCharCode(0xf2f5), backgroundColor: '#4A9F6E', color: '#000' }
     ];
 
     currentTabIndex: number = 2;
